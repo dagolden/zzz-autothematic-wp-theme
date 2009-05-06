@@ -44,8 +44,8 @@ body{
 	background:url(images/body_bg.jpg) top left repeat-x #989796;
 	text-align: center;
 	color:#494a4b;
-	font-family:Arial, Verdana, Helvetica, sans-serif;
-	line-height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
 }
 h1, h2, h3, h4, h5, h6{
 	font-weight: normal;
@@ -189,7 +189,7 @@ ul.sf-menu li li li.sfHover ul {
     /*border-bottom-color:#fff;*/
 }
 .sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-	font-family:"Courier New", "Century Gothic", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color:			#fff;
 }
 .sf-menu li {
@@ -250,10 +250,10 @@ ul.sf-menu li li li.sfHover ul {
 	padding:10px;
 }
 h1.entry-title, h2.entry-title{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 	text-transform:none;
 	color:#4378ae;
-	font-size:28px;
+	font-size:2em;
 	font-weight:normal;
 }
 h2.entry-title a{
@@ -262,6 +262,31 @@ h2.entry-title a{
 h2.entry-title a:hover{
 	text-decoration:underline;
 }
+
+.entry-content h1, .entry-content h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform:none;
+	color:#4378ae;
+	font-size:1.5em;
+	font-weight:normal;
+}
+    
+.entry-content h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform:none;
+	color:#4378ae;
+	font-size:1.2em;
+	font-weight:normal;
+}
+    
+.entry-content h4  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform:none;
+	color:#4378ae;
+	font-size:1.2em;
+	font-weight:normal;
+}
+
 a.more-link{
 	background:url(images/read_more.gif) top left no-repeat;
 	width:89px;
@@ -403,6 +428,17 @@ li#search form div input#s{
 	border-right:1px solid #fff;
 	border-bottom:1px solid #fff;
 }
+/***************************************************************** RSS Widget */
+li#google-reader ul li {
+    font-size: .8em;
+    line-height: 1em;
+}
+
+li#google-reader ul li a {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
 /***************************************************************** Tag Cloud */
 .aside ul.xoxo li#tag_cloud{
 	padding:10px;
@@ -474,10 +510,10 @@ li#search form div input#s{
 	color:#323232;
 }
 #respond input{
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #respond textarea{
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 /***********************************************************  FOOTER  */
 #footer{
@@ -508,3 +544,4 @@ li#search form div input#s{
 	color:#323232;
 }
 #ll{}
+
