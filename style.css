@@ -311,11 +311,15 @@ span.comments-link a{
 	color:#da7f13;
 }
 .hentry ol{
-	list-style-position:inside;
+	list-style-position:outside;
 }
 .hentry ul{
-	list-style-position:inside;
+	list-style-position:outside;
 }
+.hentry li {
+    margin-bottom: .75em;
+}
+
 /*********************************************************** columns */
 #primary{
 	width:200px;
@@ -332,6 +336,8 @@ span.comments-link a{
 
 }
 .aside ul.xoxo li{
+    font-size: .9em;
+    line-height: 1.1em;
 	padding:0;
 	margin:0;
 	background:#eae9e9;
@@ -429,15 +435,18 @@ li#search form div input#s{
 	border-bottom:1px solid #fff;
 }
 /***************************************************************** RSS Widget */
-li#google-reader ul li {
-    font-size: .8em;
+/*li#google-reader ul li, 
+div#get_recent_comments_wrap ul li {
+    font-size: .9em;
     line-height: 1em;
 }
 
-li#google-reader ul li a {
+li#google-reader ul li a, 
+div#get_recent_comments_wrap ul li a {
     padding-top: .5em;
     padding-bottom: .5em;
 }
+*/
 
 /***************************************************************** Tag Cloud */
 .aside ul.xoxo li#tag_cloud{
