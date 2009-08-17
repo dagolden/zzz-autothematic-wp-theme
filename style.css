@@ -237,7 +237,7 @@ ul.sf-menu li li li.sfHover ul {
 	width:auto;
 	height:1%;
 }
-#container{width:510px;}
+#container{width:710px;}
 #content{
 	padding:0 0px 0 0;
 }
@@ -327,8 +327,9 @@ span.comments-link a{
 	margin-right:0;
 }
 #secondary{
-	width:200px;
-	float:left;
+    display:none;
+/*	width:200px;
+	float:left; */
 }
 .aside ul.xoxo{
 	list-style:none;
