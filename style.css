@@ -97,6 +97,14 @@ h1 span{
 	-moz-opacity: 0;
 	opacity:0;*/
 }
+#bannerlet {
+    display:block;
+    z-index:2;
+    position:fixed;
+    top:60px;
+    right:100px;
+    
+}
 /******************************************** Ad areas */
 #top_ad{
 	width:728px;
