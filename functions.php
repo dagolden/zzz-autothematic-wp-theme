@@ -21,5 +21,10 @@ function childtheme_menu_args($args) {
 }
 add_filter('wp_page_menu_args','childtheme_menu_args');
 
-
+function bannerlet() {
+?>
+<div id="bannerlet"><img src="oscon2010.jpg" /></div>
+<?php
+}
+add_action('thematic_header','bannerlet',11);
 ?>
