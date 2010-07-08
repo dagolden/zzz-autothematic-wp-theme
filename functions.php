@@ -23,8 +23,13 @@ add_filter('wp_page_menu_args','childtheme_menu_args');
 
 function bannerlet() {
 ?>
-<div id="bannerlet"><img src="oscon2010.jpg" /></div>
+<div id="bannerlet"><a href="http://www.oscon.com/oscon2010/public/schedule/detail/13759"><img src="oscon2010.jpg" /></a></div>
 <?php
 }
 add_action('thematic_header','bannerlet',11);
+remove_filter('the_title', 'wptexturize');
+remove_filter('the_content', 'wptexturize');
+remove_filter('the_excerpt', 'wptexturize');
+remove_filter('comment_text', 'wptexturize');
+
 ?>
