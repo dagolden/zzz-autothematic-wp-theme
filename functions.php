@@ -23,7 +23,7 @@ add_filter('wp_page_menu_args','childtheme_menu_args');
 
 function bannerlet() {
 ?>
-<div id="bannerlet"><a href="http://www.oscon.com/oscon2010/public/schedule/detail/13759"><img src="oscon2010.jpg" /></a></div>
+<div id="bannerlet"></div>
 <?php
 }
 add_action('thematic_header','bannerlet',11);

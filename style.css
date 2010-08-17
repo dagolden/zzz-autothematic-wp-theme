@@ -318,6 +318,16 @@ div.entry-utility{
 span.comments-link a{
 	color:#da7f13;
 }
+.comment-navigation a {
+    color:#da7f13;
+}
+.comment-reply-link a {
+    color:#da7f13;
+}
+#cancel-comment-reply a {
+    color:#da7f13;
+    font-style:italic;
+}
 .hentry ol{
 	list-style-position:outside;
 }
