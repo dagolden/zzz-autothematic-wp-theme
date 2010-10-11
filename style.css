@@ -443,10 +443,11 @@ span.comments-link a{
 	text-decoration:none;
 }
 /***************************************************************** Search */
-li#search form div{
+li#search-2 form div{
 	padding:0 0 0 7px;
 }
-li#search form div input#s{
+li#search-2 form div input#s{
+    font-family: sans-serif;
 	width:110px;
 	border-top:1px solid #c0c0c0;
 	border-left:1px solid #c0c0c0;
@@ -501,6 +502,13 @@ div#get_recent_comments_wrap ul li a {
 	padding:0 5px;
 	margin:0;
 	border:1px solid #e6e5e5;
+    color: #bbb;
+}
+#wp-calendar a {
+    font-weight: bold;
+}
+#wp-calendar a {
+    font-weight: bold;
 }
 /*********************************************************** Comments */
 #comments{
