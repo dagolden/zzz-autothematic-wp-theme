@@ -32,4 +32,9 @@ remove_filter('the_content', 'wptexturize');
 remove_filter('the_excerpt', 'wptexturize');
 remove_filter('comment_text', 'wptexturize');
 
+function childtheme_favicon() { ?>
+    <link rel="shortcut icon" href="<?php echo bloginfo('stylesheet_directory') ?>/images/favicon.ico" />
+<?php }
+add_action('wp_head', 'childtheme_favicon');
+
 ?>
