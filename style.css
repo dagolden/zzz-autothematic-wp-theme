@@ -128,6 +128,23 @@ h1 span{
     overflow:visible;
     z-index:100;
 }
+
+/*menu ul {
+    margin-left: -500;
+}
+*/
+
+.menu li {
+    display: inline;
+    padding: 10px 20px 0px;
+    color: #fff;
+	list-style-type:none;
+}
+
+.menu li a {
+    color: #fff;
+}
+
 /*** ESSENTIAL STYLES ***/
 .sf-menu, .sf-menu * {
 	margin:			0;
@@ -293,6 +310,15 @@ h2.entry-title a:hover{
 	color:#4378ae;
 	font-size:1.2em;
 	font-weight:normal;
+}
+
+.entry-content .aside {
+    font-size: .9em;
+	background: #e0e0e0;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 a.more-link{
